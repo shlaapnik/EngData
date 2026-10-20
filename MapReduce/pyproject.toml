@@ -1,0 +1,17 @@
+[project]
+name = "mapreduce"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "boto3>=1.43.118",
+    "duckdb>=2.0.0",
+    "ipykernel>=7.4.0",
+    "ipywidgets>=8.1.9",
+    "matplotlib>=3.11.2",
+    "nbconvert>=7.17.2",
+    "pandas>=3.1.0",
+    "polars>=2.1.0",
+    "psutil>=7.2.2",
+    "pyarrow>=26.0.0",
+    "tqdm>=4.70.1",
+]
