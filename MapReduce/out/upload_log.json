@@ -1,0 +1,9 @@
+{
+  "key": "s3://hh-lake/raw/vacancies_2024.csv",
+  "bytes": 24970431974,
+  "seconds": 744.0,
+  "MiB_per_s": 32.0,
+  "part_size": 16777216,
+  "parts": 1489,
+  "finished": "2026-10-26 16:23:36"
+}
