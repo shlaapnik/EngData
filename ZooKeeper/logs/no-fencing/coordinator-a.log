@@ -1,0 +1,26 @@
+18:07:28.542 coordinator-a сессия ZooKeeper активна
+18:07:28.543 coordinator-a запущен, pid 24660, тайм-аут сессии 10.0 с, защита по эпохе выключена
+18:07:28.543 coordinator-a жду выборов
+18:07:29.487 coordinator-a стал лидером, эпоха 1
+18:07:30.327 coordinator-a начинаю расчёт, map-задач 373
+18:08:29.837 coordinator-a чекпоинт: готово 26 из 373
+18:09:27.855 coordinator-a чекпоинт: готово 54 из 373
+18:10:26.235 coordinator-a чекпоинт: готово 82 из 373
+18:11:16.485 coordinator-a чекпоинт: готово 113 из 373
+18:11:49.613 coordinator-a чекпоинт: готово 141 из 373
+18:12:24.469 coordinator-a чекпоинт: готово 169 из 373
+18:12:57.581 coordinator-a чекпоинт: готово 197 из 373
+18:13:46.574 coordinator-a чекпоинт: готово 225 из 373
+18:14:31.828 coordinator-a чекпоинт: готово 253 из 373
+18:15:36.372 coordinator-a чекпоинт: готово 281 из 373
+18:16:27.092 coordinator-a чекпоинт: готово 309 из 373
+18:20:45.397 coordinator-a kazoo: Connection dropped: socket connection broken
+18:20:45.422 coordinator-a kazoo: Transition to CONNECTING
+18:20:45.427 coordinator-a связь с ZooKeeper потеряна
+18:20:45.531 coordinator-a kazoo: Session has expired
+18:20:45.531 coordinator-a сессия ZooKeeper истекла
+18:20:45.830 coordinator-a сессия ZooKeeper активна
+18:21:05.651 coordinator-a чекпоинт: готово 373 из 373
+18:21:33.674 coordinator-a расчёт закончен за 844.2 с, уникальных пар 10999, сумма частот 48945, совпадает с ДЗ 3: да
+18:21:34.434 coordinator-a записал результат results/hw4/no-fencing/coordinator-a-epoch1.csv, версия указателя 2
+18:21:34.488 coordinator-a остановлен

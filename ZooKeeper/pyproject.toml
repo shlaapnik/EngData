@@ -1,0 +1,17 @@
+[project]
+name = "zookeeper-coordinator"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "boto3>=1.43.118",
+    "ipykernel>=7.4.0",
+    "ipywidgets>=8.1.9",
+    "kazoo==2.11.0",
+    "nbconvert>=7.17.2",
+    "psutil>=7.2.2",
+    "pyarrow>=26.0.0",
+    "tqdm>=4.70.1",
+]
+
+[tool.ty.environment]
+extra-paths = ["../MapReduce"]
