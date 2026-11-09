@@ -1,0 +1,29 @@
+способ,попытка,"время, с","пик памяти, МиБ","прирост памяти, МиБ"
+ETL CSV в Parquet,1,347.9,5179,4993
+MapReduce CSV,1,150.9,1882,1382
+MapReduce CSV,2,148.4,1753,1377
+MapReduce CSV,3,152.3,1679,1468
+DuckDB CSV,1,230.7,2968,2754
+DuckDB CSV,2,265.9,2954,2694
+DuckDB CSV,3,274.0,3021,2733
+Polars CSV,1,141.5,2086,1809
+Polars CSV,2,127.4,2032,1437
+Polars CSV,3,128.6,2060,1551
+MapReduce Parquet,1,5.7,704,273
+MapReduce Parquet,2,4.1,696,257
+MapReduce Parquet,3,4.7,710,262
+DuckDB Parquet,1,2.7,553,109
+DuckDB Parquet,2,1.5,577,29
+DuckDB Parquet,3,1.7,582,11
+Polars Parquet,1,1.1,770,198
+Polars Parquet,2,1.0,800,63
+Polars Parquet,3,1.0,819,21
+MapReduce Parquet номера,1,4.6,1005,323
+MapReduce Parquet номера,2,4.3,1004,264
+MapReduce Parquet номера,3,4.3,1019,284
+DuckDB Parquet номера,1,1.8,764,23
+DuckDB Parquet номера,2,1.7,763,21
+DuckDB Parquet номера,3,1.8,759,17
+Polars Parquet номера,1,1.1,839,96
+Polars Parquet номера,2,1.1,844,15
+Polars Parquet номера,3,1.0,856,23
