@@ -1,0 +1,23 @@
+[pod/pairs-oom-0-sqv5q/pairs] часть 0 из 8 сплиты 0 - 46 воркеров 4 S3 host.docker.internal:9000
+[pod/pairs-oom-0-sqv5q/pairs] Traceback (most recent call last):
+[pod/pairs-oom-0-sqv5q/pairs]   File "/app/pairs_job.py", line 135, in <module>
+[pod/pairs-oom-0-sqv5q/pairs]     run_part(sys.argv[2], int(sys.argv[3]) if len(sys.argv) > 3 else int(os.environ["JOB_COMPLETION_INDEX"]))
+[pod/pairs-oom-0-sqv5q/pairs]     ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[pod/pairs-oom-0-sqv5q/pairs]   File "/app/pairs_job.py", line 71, in run_part
+[pod/pairs-oom-0-sqv5q/pairs]     for done, result in enumerate(pool.map(mapreduce_job.map_task, tasks), 1):
+[pod/pairs-oom-0-sqv5q/pairs]                         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[pod/pairs-oom-0-sqv5q/pairs]   File "/usr/local/lib/python3.13/concurrent/futures/process.py", line 617, in _chain_from_iterable_of_lists
+[pod/pairs-oom-0-sqv5q/pairs]     for element in iterable:
+[pod/pairs-oom-0-sqv5q/pairs]                    ^^^^^^^^
+[pod/pairs-oom-0-sqv5q/pairs]   File "/usr/local/lib/python3.13/concurrent/futures/_base.py", line 619, in result_iterator
+[pod/pairs-oom-0-sqv5q/pairs]     yield _result_or_cancel(fs.pop())
+[pod/pairs-oom-0-sqv5q/pairs]           ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+[pod/pairs-oom-0-sqv5q/pairs]   File "/usr/local/lib/python3.13/concurrent/futures/_base.py", line 317, in _result_or_cancel
+[pod/pairs-oom-0-sqv5q/pairs]     return fut.result(timeout)
+[pod/pairs-oom-0-sqv5q/pairs]            ~~~~~~~~~~^^^^^^^^^
+[pod/pairs-oom-0-sqv5q/pairs]   File "/usr/local/lib/python3.13/concurrent/futures/_base.py", line 456, in result
+[pod/pairs-oom-0-sqv5q/pairs]     return self.__get_result()
+[pod/pairs-oom-0-sqv5q/pairs]            ~~~~~~~~~~~~~~~~~^^
+[pod/pairs-oom-0-sqv5q/pairs]   File "/usr/local/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+[pod/pairs-oom-0-sqv5q/pairs]     raise self._exception
+[pod/pairs-oom-0-sqv5q/pairs] concurrent.futures.process.BrokenProcessPool: A process in the process pool was terminated abruptly while the future was running or pending.

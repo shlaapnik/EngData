@@ -1,0 +1,86 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rustfs
+  namespace: hw5
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: rustfs
+  template:
+    metadata:
+      labels:
+        app: rustfs
+    spec:
+      containers:
+        - name: rustfs
+          image: rustfs/rustfs:latest
+          imagePullPolicy: Never
+          env:
+            - {name: RUSTFS_ACCESS_KEY, value: rustfsadmin}
+            - {name: RUSTFS_SECRET_KEY, value: rustfsadmin}
+            - {name: RUSTFS_VOLUMES, value: "/data/disk{1...12}"}
+            - {name: RUSTFS_ADDRESS, value: ":9000"}
+            - {name: RUSTFS_CONSOLE_ADDRESS, value: ":9001"}
+            - {name: RUSTFS_CONSOLE_ENABLE, value: "true"}
+            - {name: RUSTFS_UNSAFE_BYPASS_DISK_CHECK, value: "true"}
+          ports:
+            - {containerPort: 9000, name: s3}
+            - {containerPort: 9001, name: console}
+          resources:
+            requests: {cpu: "2", memory: 1Gi}
+            limits: {memory: 4Gi}
+          volumeMounts:
+            - {name: disk1, mountPath: /data/disk1}
+            - {name: disk2, mountPath: /data/disk2}
+            - {name: disk3, mountPath: /data/disk3}
+            - {name: disk4, mountPath: /data/disk4}
+            - {name: disk5, mountPath: /data/disk5}
+            - {name: disk6, mountPath: /data/disk6}
+            - {name: disk7, mountPath: /data/disk7}
+            - {name: disk8, mountPath: /data/disk8}
+            - {name: disk9, mountPath: /data/disk9}
+            - {name: disk10, mountPath: /data/disk10}
+            - {name: disk11, mountPath: /data/disk11}
+            - {name: disk12, mountPath: /data/disk12}
+      volumes:
+        - name: disk1
+          hostPath: {path: /run/desktop/mnt/host/c/python/Study/ITMO_3nd/EngData/rustfs/disk1, type: Directory}
+        - name: disk2
+          hostPath: {path: /run/desktop/mnt/host/c/python/Study/ITMO_3nd/EngData/rustfs/disk2, type: Directory}
+        - name: disk3
+          hostPath: {path: /run/desktop/mnt/host/c/python/Study/ITMO_3nd/EngData/rustfs/disk3, type: Directory}
+        - name: disk4
+          hostPath: {path: /run/desktop/mnt/host/c/python/Study/ITMO_3nd/EngData/rustfs/disk4, type: Directory}
+        - name: disk5
+          hostPath: {path: /run/desktop/mnt/host/c/python/Study/ITMO_3nd/EngData/rustfs/disk5, type: Directory}
+        - name: disk6
+          hostPath: {path: /run/desktop/mnt/host/c/python/Study/ITMO_3nd/EngData/rustfs/disk6, type: Directory}
+        - name: disk7
+          hostPath: {path: /run/desktop/mnt/host/c/python/Study/ITMO_3nd/EngData/rustfs/disk7, type: Directory}
+        - name: disk8
+          hostPath: {path: /run/desktop/mnt/host/c/python/Study/ITMO_3nd/EngData/rustfs/disk8, type: Directory}
+        - name: disk9
+          hostPath: {path: /run/desktop/mnt/host/c/python/Study/ITMO_3nd/EngData/rustfs/disk9, type: Directory}
+        - name: disk10
+          hostPath: {path: /run/desktop/mnt/host/c/python/Study/ITMO_3nd/EngData/rustfs/disk10, type: Directory}
+        - name: disk11
+          hostPath: {path: /run/desktop/mnt/host/c/python/Study/ITMO_3nd/EngData/rustfs/disk11, type: Directory}
+        - name: disk12
+          hostPath: {path: /run/desktop/mnt/host/c/python/Study/ITMO_3nd/EngData/rustfs/disk12, type: Directory}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rustfs
+  namespace: hw5
+spec:
+  type: LoadBalancer
+  selector:
+    app: rustfs
+  ports:
+    - {name: s3, port: 9000, targetPort: 9000}
+    - {name: console, port: 9001, targetPort: 9001}

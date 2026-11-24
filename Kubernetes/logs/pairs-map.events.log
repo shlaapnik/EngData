@@ -1,0 +1,46 @@
+19:39:50 Normal Scheduled Pod/pairs-map-0-rxcrk: Successfully assigned hw5/pairs-map-0-rxcrk to docker-desktop
+19:39:50 Normal Scheduled Pod/pairs-map-1-2lwqs: Successfully assigned hw5/pairs-map-1-2lwqs to docker-desktop
+19:39:50 Normal Scheduled Pod/pairs-map-2-ps8fz: Successfully assigned hw5/pairs-map-2-ps8fz to docker-desktop
+19:39:50 Warning FailedScheduling Pod/pairs-map-4-7tn2p: 0/1 nodes are available: 1 Insufficient cpu. no new claims to deallocate, preemption: 0/1 nodes are available: 1 No preemption victims found for incoming pod.
+19:39:50 Normal SuccessfulCreate Job/pairs-map: Created pod: pairs-map-0-rxcrk
+19:39:50 Normal SuccessfulCreate Job/pairs-map: Created pod: pairs-map-2-ps8fz
+19:39:50 Normal SuccessfulCreate Job/pairs-map: Created pod: pairs-map-1-2lwqs
+19:39:50 Normal SuccessfulCreate Job/pairs-map: Created pod: pairs-map-6-6rxmk
+19:39:50 Normal SuccessfulCreate Job/pairs-map: Created pod: pairs-map-5-r4chw
+19:39:50 Normal SuccessfulCreate Job/pairs-map: Created pod: pairs-map-4-7tn2p
+19:39:50 Normal SuccessfulCreate Job/pairs-map: Created pod: pairs-map-3-dzbjl
+19:39:50 Normal SuccessfulCreate Job/pairs-map: Created pod: pairs-map-7-vbgpf
+19:39:51 Normal Pulled Pod/pairs-map-0-rxcrk: Container image "pairs-job:hw5" already present on machine
+19:39:51 Normal Created Pod/pairs-map-0-rxcrk: Created container: pairs
+19:39:51 Normal Pulled Pod/pairs-map-1-2lwqs: Container image "pairs-job:hw5" already present on machine
+19:39:51 Normal Pulled Pod/pairs-map-2-ps8fz: Container image "pairs-job:hw5" already present on machine
+19:39:52 Normal Started Pod/pairs-map-0-rxcrk: Started container pairs
+19:39:52 Normal Created Pod/pairs-map-1-2lwqs: Created container: pairs
+19:39:52 Normal Started Pod/pairs-map-1-2lwqs: Started container pairs
+19:39:52 Normal Created Pod/pairs-map-2-ps8fz: Created container: pairs
+19:39:52 Normal Started Pod/pairs-map-2-ps8fz: Started container pairs
+19:42:01 Warning FailedScheduling Pod/pairs-map-3-dzbjl: 0/1 nodes are available: 1 Insufficient cpu. no new claims to deallocate, preemption: 0/1 nodes are available: 1 No preemption victims found for incoming pod.
+19:42:01 Normal Scheduled Pod/pairs-map-4-7tn2p: Successfully assigned hw5/pairs-map-4-7tn2p to docker-desktop
+19:42:03 Normal Pulled Pod/pairs-map-4-7tn2p: Container image "pairs-job:hw5" already present on machine
+19:42:03 Normal Created Pod/pairs-map-4-7tn2p: Created container: pairs
+19:42:03 Normal Started Pod/pairs-map-4-7tn2p: Started container pairs
+19:42:05 Normal Scheduled Pod/pairs-map-3-dzbjl: Successfully assigned hw5/pairs-map-3-dzbjl to docker-desktop
+19:42:05 Warning FailedScheduling Pod/pairs-map-5-r4chw: 0/1 nodes are available: 1 Insufficient cpu. no new claims to deallocate, preemption: 0/1 nodes are available: 1 No preemption victims found for incoming pod.
+19:42:05 Warning FailedScheduling Pod/pairs-map-6-6rxmk: 0/1 nodes are available: 1 Insufficient cpu. no new claims to deallocate, preemption: 0/1 nodes are available: 1 No preemption victims found for incoming pod.
+19:42:05 Normal Scheduled Pod/pairs-map-6-6rxmk: Successfully assigned hw5/pairs-map-6-6rxmk to docker-desktop
+19:42:06 Normal Pulled Pod/pairs-map-3-dzbjl: Container image "pairs-job:hw5" already present on machine
+19:42:07 Normal Created Pod/pairs-map-3-dzbjl: Created container: pairs
+19:42:07 Normal Started Pod/pairs-map-3-dzbjl: Started container pairs
+19:42:07 Normal Pulled Pod/pairs-map-6-6rxmk: Container image "pairs-job:hw5" already present on machine
+19:42:07 Normal Created Pod/pairs-map-6-6rxmk: Created container: pairs
+19:42:08 Normal Started Pod/pairs-map-6-6rxmk: Started container pairs
+19:43:56 Normal Scheduled Pod/pairs-map-5-r4chw: Successfully assigned hw5/pairs-map-5-r4chw to docker-desktop
+19:43:56 Warning FailedScheduling Pod/pairs-map-7-vbgpf: 0/1 nodes are available: 1 Insufficient cpu. no new claims to deallocate, preemption: 0/1 nodes are available: 1 No preemption victims found for incoming pod.
+19:43:58 Normal Pulled Pod/pairs-map-5-r4chw: Container image "pairs-job:hw5" already present on machine
+19:43:58 Normal Created Pod/pairs-map-5-r4chw: Created container: pairs
+19:43:58 Normal Started Pod/pairs-map-5-r4chw: Started container pairs
+19:43:59 Normal Scheduled Pod/pairs-map-7-vbgpf: Successfully assigned hw5/pairs-map-7-vbgpf to docker-desktop
+19:44:00 Normal Pulled Pod/pairs-map-7-vbgpf: Container image "pairs-job:hw5" already present on machine
+19:44:00 Normal Created Pod/pairs-map-7-vbgpf: Created container: pairs
+19:44:01 Normal Started Pod/pairs-map-7-vbgpf: Started container pairs
+19:45:51 Normal Completed Job/pairs-map: Job completed

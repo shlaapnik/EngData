@@ -1,0 +1,4 @@
+*
+!MapReduce/common.py
+!MapReduce/mapreduce_job.py
+!Kubernetes/pairs_job.py

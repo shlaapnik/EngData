@@ -1,0 +1,13 @@
+apiVersion: scheduling.k8s.io/v1
+kind: PriorityClass
+metadata:
+  name: hw5-low
+value: 1000
+description: фоновые расчёты, их можно вытеснить
+---
+apiVersion: scheduling.k8s.io/v1
+kind: PriorityClass
+metadata:
+  name: hw5-high
+value: 100000
+description: срочные расчёты, вытесняют фоновые

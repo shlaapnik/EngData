@@ -1,0 +1,8 @@
+[pod/pairs-measure-0-nts44/pairs] часть 0 из 8 сплиты 0 - 46 воркеров 4 S3 host.docker.internal:9000
+[pod/pairs-measure-0-nts44/pairs] готово сплитов 10 из 47
+[pod/pairs-measure-0-nts44/pairs] готово сплитов 20 из 47
+[pod/pairs-measure-0-nts44/pairs] готово сплитов 30 из 47
+[pod/pairs-measure-0-nts44/pairs] готово сплитов 40 из 47
+[pod/pairs-measure-0-nts44/pairs] готово сплитов 47 из 47
+[pod/pairs-measure-0-nts44/pairs] строк 1218176 вакансий Go 421 уникальных пар 2428 за 184.2 с, записал k8s/measure/part-0.pickle
+[pod/pairs-measure-0-nts44/pairs] пик памяти контейнера 404 МиБ, предел 2048 МиБ

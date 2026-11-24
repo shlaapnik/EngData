@@ -1,0 +1,7 @@
+19:47:11 Warning FailedScheduling Pod/pairs-high-0-sq4f7: 0/1 nodes are available: 1 Insufficient cpu.
+19:47:11 Normal SuccessfulCreate Job/pairs-high: Created pod: pairs-high-0-sq4f7
+19:47:42 Normal Scheduled Pod/pairs-high-0-sq4f7: Successfully assigned hw5/pairs-high-0-sq4f7 to docker-desktop
+19:47:43 Normal Pulled Pod/pairs-high-0-sq4f7: Container image "pairs-job:hw5" already present on machine
+19:47:43 Normal Created Pod/pairs-high-0-sq4f7: Created container: pairs
+19:47:43 Normal Started Pod/pairs-high-0-sq4f7: Started container pairs
+19:49:42 Normal Completed Job/pairs-high: Job completed

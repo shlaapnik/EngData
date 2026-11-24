@@ -1,0 +1,24 @@
+19:46:46 Normal Scheduled Pod/pairs-low-0-4s59q: Successfully assigned hw5/pairs-low-0-4s59q to docker-desktop
+19:46:46 Normal Scheduled Pod/pairs-low-1-6k2jv: Successfully assigned hw5/pairs-low-1-6k2jv to docker-desktop
+19:46:46 Normal Scheduled Pod/pairs-low-2-r7545: Successfully assigned hw5/pairs-low-2-r7545 to docker-desktop
+19:46:46 Normal SuccessfulCreate Job/pairs-low: Created pod: pairs-low-0-4s59q
+19:46:46 Normal SuccessfulCreate Job/pairs-low: Created pod: pairs-low-2-r7545
+19:46:46 Normal SuccessfulCreate Job/pairs-low: Created pod: pairs-low-1-6k2jv
+19:46:47 Normal Pulled Pod/pairs-low-0-4s59q: Container image "pairs-job:hw5" already present on machine
+19:46:47 Normal Pulled Pod/pairs-low-1-6k2jv: Container image "pairs-job:hw5" already present on machine
+19:46:47 Normal Pulled Pod/pairs-low-2-r7545: Container image "pairs-job:hw5" already present on machine
+19:46:48 Normal Created Pod/pairs-low-0-4s59q: Created container: pairs
+19:46:48 Normal Started Pod/pairs-low-0-4s59q: Started container pairs
+19:46:48 Normal Created Pod/pairs-low-1-6k2jv: Created container: pairs
+19:46:48 Normal Started Pod/pairs-low-1-6k2jv: Started container pairs
+19:46:48 Normal Created Pod/pairs-low-2-r7545: Created container: pairs
+19:46:48 Normal Started Pod/pairs-low-2-r7545: Started container pairs
+19:47:11 Normal Killing Pod/pairs-low-1-6k2jv: Stopping container pairs
+19:47:11 Normal Preempted Pod/pairs-low-1-6k2jv: Preempted by pod 99e77271-da69-4c39-a66d-0ac606eb743e on node docker-desktop
+19:47:21 Normal SuccessfulCreate Job/pairs-low: Created pod: pairs-low-1-d7rqc
+19:47:42 Warning FailedScheduling Pod/pairs-low-1-d7rqc: 0/1 nodes are available: 1 Insufficient cpu. no new claims to deallocate, preemption: 0/1 nodes are available: 1 Insufficient cpu.
+19:49:01 Normal Scheduled Pod/pairs-low-1-d7rqc: Successfully assigned hw5/pairs-low-1-d7rqc to docker-desktop
+19:49:02 Normal Pulled Pod/pairs-low-1-d7rqc: Container image "pairs-job:hw5" already present on machine
+19:49:02 Normal Created Pod/pairs-low-1-d7rqc: Created container: pairs
+19:49:02 Normal Started Pod/pairs-low-1-d7rqc: Started container pairs
+19:50:18 Normal Completed Job/pairs-low: Job completed

@@ -1,0 +1,6 @@
+19:32:20 Normal Scheduled Pod/pairs-oom-0-sqv5q: Successfully assigned hw5/pairs-oom-0-sqv5q to docker-desktop
+19:32:20 Normal SuccessfulCreate Job/pairs-oom: Created pod: pairs-oom-0-sqv5q
+19:32:21 Normal Pulled Pod/pairs-oom-0-sqv5q: Container image "pairs-job:hw5" already present on machine
+19:32:21 Normal Created Pod/pairs-oom-0-sqv5q: Created container: pairs
+19:32:21 Normal Started Pod/pairs-oom-0-sqv5q: Started container pairs
+19:32:35 Warning BackoffLimitExceeded Job/pairs-oom: Job has reached the specified backoff limit

@@ -1,0 +1,32 @@
+[pod/pairs-quota-0-ml2ft/pairs] часть 0 из 8 сплиты 0 - 46 воркеров 4 S3 rustfs.hw5.svc:9000
+[pod/pairs-quota-0-ml2ft/pairs] готово сплитов 10 из 47
+[pod/pairs-quota-0-ml2ft/pairs] готово сплитов 20 из 47
+[pod/pairs-quota-0-ml2ft/pairs] готово сплитов 30 из 47
+[pod/pairs-quota-0-ml2ft/pairs] готово сплитов 40 из 47
+[pod/pairs-quota-0-ml2ft/pairs] готово сплитов 47 из 47
+[pod/pairs-quota-0-ml2ft/pairs] строк 1218176 вакансий Go 421 уникальных пар 2428 за 95.0 с, записал k8s/quota/part-0.pickle
+[pod/pairs-quota-0-ml2ft/pairs] пик памяти контейнера 352 МиБ, предел 512 МиБ
+[pod/pairs-quota-1-bk5rf/pairs] часть 1 из 8 сплиты 47 - 93 воркеров 4 S3 rustfs.hw5.svc:9000
+[pod/pairs-quota-1-bk5rf/pairs] готово сплитов 10 из 47
+[pod/pairs-quota-1-bk5rf/pairs] готово сплитов 20 из 47
+[pod/pairs-quota-1-bk5rf/pairs] готово сплитов 30 из 47
+[pod/pairs-quota-1-bk5rf/pairs] готово сплитов 40 из 47
+[pod/pairs-quota-1-bk5rf/pairs] готово сплитов 47 из 47
+[pod/pairs-quota-1-bk5rf/pairs] строк 1162277 вакансий Go 499 уникальных пар 2917 за 77.1 с, записал k8s/quota/part-1.pickle
+[pod/pairs-quota-1-bk5rf/pairs] пик памяти контейнера 357 МиБ, предел 512 МиБ
+[pod/pairs-quota-2-qvntw/pairs] часть 2 из 8 сплиты 94 - 140 воркеров 4 S3 rustfs.hw5.svc:9000
+[pod/pairs-quota-2-qvntw/pairs] готово сплитов 10 из 47
+[pod/pairs-quota-2-qvntw/pairs] готово сплитов 20 из 47
+[pod/pairs-quota-2-qvntw/pairs] готово сплитов 30 из 47
+[pod/pairs-quota-2-qvntw/pairs] готово сплитов 40 из 47
+[pod/pairs-quota-2-qvntw/pairs] готово сплитов 47 из 47
+[pod/pairs-quota-2-qvntw/pairs] строк 1185793 вакансий Go 607 уникальных пар 3474 за 93.3 с, записал k8s/quota/part-2.pickle
+[pod/pairs-quota-2-qvntw/pairs] пик памяти контейнера 358 МиБ, предел 512 МиБ
+[pod/pairs-quota-3-h4h8f/pairs] часть 3 из 8 сплиты 141 - 187 воркеров 4 S3 rustfs.hw5.svc:9000
+[pod/pairs-quota-3-h4h8f/pairs] готово сплитов 10 из 47
+[pod/pairs-quota-3-h4h8f/pairs] готово сплитов 20 из 47
+[pod/pairs-quota-3-h4h8f/pairs] готово сплитов 30 из 47
+[pod/pairs-quota-3-h4h8f/pairs] готово сплитов 40 из 47
+[pod/pairs-quota-3-h4h8f/pairs] готово сплитов 47 из 47
+[pod/pairs-quota-3-h4h8f/pairs] строк 1100503 вакансий Go 458 уникальных пар 3169 за 78.0 с, записал k8s/quota/part-3.pickle
+[pod/pairs-quota-3-h4h8f/pairs] пик памяти контейнера 352 МиБ, предел 512 МиБ
