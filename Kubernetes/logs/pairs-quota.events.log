@@ -1,0 +1,30 @@
+19:50:22 Normal Scheduled Pod/pairs-quota-0-ml2ft: Successfully assigned hw5-quota/pairs-quota-0-ml2ft to docker-desktop
+19:50:22 Normal Scheduled Pod/pairs-quota-2-qvntw: Successfully assigned hw5-quota/pairs-quota-2-qvntw to docker-desktop
+19:50:22 Normal SuccessfulCreate Job/pairs-quota: Created pod: pairs-quota-0-ml2ft
+19:50:22 Warning FailedCreate Job/pairs-quota: Error creating: pods "pairs-quota-1-4br7j" is forbidden: exceeded quota: hw5-quota, requested: requests.cpu=4, used: requests.cpu=8, limited: requests.cpu=8
+19:50:22 Normal SuccessfulCreate Job/pairs-quota: Created pod: pairs-quota-2-qvntw
+19:50:23 Normal Pulled Pod/pairs-quota-0-ml2ft: Container image "pairs-job:hw5" already present on machine
+19:50:23 Normal Created Pod/pairs-quota-0-ml2ft: Created container: pairs
+19:50:23 Normal Started Pod/pairs-quota-0-ml2ft: Started container pairs
+19:50:23 Normal Pulled Pod/pairs-quota-2-qvntw: Container image "pairs-job:hw5" already present on machine
+19:50:23 Normal Created Pod/pairs-quota-2-qvntw: Created container: pairs
+19:50:23 Normal Started Pod/pairs-quota-2-qvntw: Started container pairs
+19:50:23 Warning FailedCreate Job/pairs-quota: Error creating: pods "pairs-quota-1-js45z" is forbidden: exceeded quota: hw5-quota, requested: requests.cpu=4, used: requests.cpu=8, limited: requests.cpu=8
+19:50:25 Warning FailedCreate Job/pairs-quota: Error creating: pods "pairs-quota-1-m9bnz" is forbidden: exceeded quota: hw5-quota, requested: requests.cpu=4, used: requests.cpu=8, limited: requests.cpu=8
+19:50:26 Warning FailedCreate Job/pairs-quota: Error creating: pods "pairs-quota-1-fsp22" is forbidden: exceeded quota: hw5-quota, requested: requests.cpu=4, used: requests.cpu=8, limited: requests.cpu=8
+19:50:34 Warning FailedCreate Job/pairs-quota: Error creating: pods "pairs-quota-1-9n7bf" is forbidden: exceeded quota: hw5-quota, requested: requests.cpu=4, used: requests.cpu=8, limited: requests.cpu=8
+19:50:50 Warning FailedCreate Job/pairs-quota: Error creating: pods "pairs-quota-1-w5fsh" is forbidden: exceeded quota: hw5-quota, requested: requests.cpu=4, used: requests.cpu=8, limited: requests.cpu=8
+19:51:22 Warning FailedCreate Job/pairs-quota: Error creating: pods "pairs-quota-1-l42qg" is forbidden: exceeded quota: hw5-quota, requested: requests.cpu=4, used: requests.cpu=8, limited: requests.cpu=8
+19:52:00 Warning FailedCreate Job/pairs-quota: Error creating: pods "pairs-quota-1-xgxqf" is forbidden: exceeded quota: hw5-quota, requested: requests.cpu=4, used: requests.cpu=8, limited: requests.cpu=8
+19:52:01 Normal Scheduled Pod/pairs-quota-1-bk5rf: Successfully assigned hw5-quota/pairs-quota-1-bk5rf to docker-desktop
+19:52:01 Normal SuccessfulCreate Job/pairs-quota: Created pod: pairs-quota-1-bk5rf
+19:52:01 Warning FailedCreate Job/pairs-quota: Error creating: pods "pairs-quota-3-fdz4q" is forbidden: exceeded quota: hw5-quota, requested: requests.cpu=4, used: requests.cpu=8, limited: requests.cpu=8
+19:52:02 Normal Pulled Pod/pairs-quota-1-bk5rf: Container image "pairs-job:hw5" already present on machine
+19:52:02 Normal Created Pod/pairs-quota-1-bk5rf: Created container: pairs
+19:52:02 Normal Scheduled Pod/pairs-quota-3-h4h8f: Successfully assigned hw5-quota/pairs-quota-3-h4h8f to docker-desktop
+19:52:02 Normal SuccessfulCreate Job/pairs-quota: Created pod: pairs-quota-3-h4h8f
+19:52:03 Normal Started Pod/pairs-quota-1-bk5rf: Started container pairs
+19:52:03 Normal Pulled Pod/pairs-quota-3-h4h8f: Container image "pairs-job:hw5" already present on machine
+19:52:04 Normal Created Pod/pairs-quota-3-h4h8f: Created container: pairs
+19:52:04 Normal Started Pod/pairs-quota-3-h4h8f: Started container pairs
+19:53:25 Normal Completed Job/pairs-quota: Job completed

@@ -1,0 +1,8 @@
+[pod/pairs-high-0-sq4f7/pairs] часть 0 из 8 сплиты 0 - 46 воркеров 4 S3 rustfs.hw5.svc:9000
+[pod/pairs-high-0-sq4f7/pairs] готово сплитов 10 из 47
+[pod/pairs-high-0-sq4f7/pairs] готово сплитов 20 из 47
+[pod/pairs-high-0-sq4f7/pairs] готово сплитов 30 из 47
+[pod/pairs-high-0-sq4f7/pairs] готово сплитов 40 из 47
+[pod/pairs-high-0-sq4f7/pairs] готово сплитов 47 из 47
+[pod/pairs-high-0-sq4f7/pairs] строк 1218176 вакансий Go 421 уникальных пар 2428 за 113.8 с, записал k8s/high/part-0.pickle
+[pod/pairs-high-0-sq4f7/pairs] пик памяти контейнера 363 МиБ, предел 512 МиБ

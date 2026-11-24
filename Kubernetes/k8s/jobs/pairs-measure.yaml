@@ -1,0 +1,27 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: pairs-measure
+  namespace: hw5
+spec:
+  completions: 1
+  parallelism: 1
+  completionMode: Indexed
+  backoffLimit: 0
+  template:
+    metadata:
+      labels:
+        app: pairs
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: pairs
+          image: pairs-job:hw5
+          imagePullPolicy: Never
+          args: [part, measure]
+          env:
+            - {name: S3_ENDPOINT, value: "host.docker.internal:9000"}
+            - {name: WORKERS, value: "4"}
+          resources:
+            requests: {cpu: "4", memory: 2Gi}
+            limits: {cpu: "4", memory: 2Gi}

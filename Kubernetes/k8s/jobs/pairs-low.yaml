@@ -1,0 +1,28 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: pairs-low
+  namespace: hw5
+spec:
+  completions: 3
+  parallelism: 3
+  completionMode: Indexed
+  backoffLimit: 3
+  template:
+    metadata:
+      labels:
+        app: pairs
+    spec:
+      restartPolicy: Never
+      priorityClassName: hw5-low
+      containers:
+        - name: pairs
+          image: pairs-job:hw5
+          imagePullPolicy: Never
+          args: [part, low]
+          env:
+            - {name: S3_ENDPOINT, value: "rustfs.hw5.svc:9000"}
+            - {name: WORKERS, value: "4"}
+          resources:
+            requests: {cpu: "4", memory: 512Mi}
+            limits: {cpu: "4", memory: 512Mi}

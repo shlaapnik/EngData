@@ -1,0 +1,15 @@
+[pod/pairs-reduce-0-62sb5/pairs] частей 8 уникальных пар 10999 сумма частот 48945 записал k8s/full/pairs.csv
+[pod/pairs-reduce-0-62sb5/pairs] топ-10 пар: здесь | ДЗ 3
+[pod/pairs-reduce-0-62sb5/pairs] 1 go + postgresql 967 | go + postgresql 967
+[pod/pairs-reduce-0-62sb5/pairs] 2 docker + go 602 | docker + go 602
+[pod/pairs-reduce-0-62sb5/pairs] 3 go + sql 464 | go + sql 464
+[pod/pairs-reduce-0-62sb5/pairs] 4 git + go 455 | git + go 455
+[pod/pairs-reduce-0-62sb5/pairs] 5 go + linux 441 | go + linux 441
+[pod/pairs-reduce-0-62sb5/pairs] 6 go + kafka 406 | go + kafka 406
+[pod/pairs-reduce-0-62sb5/pairs] 7 docker + postgresql 398 | docker + postgresql 398
+[pod/pairs-reduce-0-62sb5/pairs] 8 go + kubernetes 386 | go + kubernetes 386
+[pod/pairs-reduce-0-62sb5/pairs] 9 go + redis 335 | go + redis 335
+[pod/pairs-reduce-0-62sb5/pairs] 10 go + rabbitmq 320 | go + rabbitmq 320
+[pod/pairs-reduce-0-62sb5/pairs] топ-10 совпадает с ДЗ 3: да
+[pod/pairs-reduce-0-62sb5/pairs] все пары совпадают с ДЗ 3: да
+[pod/pairs-reduce-0-62sb5/pairs] пик памяти контейнера 64 МиБ, предел 1024 МиБ

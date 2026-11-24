@@ -1,0 +1,8 @@
+[pod/pairs-tuned-0-td94f/pairs] часть 0 из 8 сплиты 0 - 46 воркеров 4 S3 host.docker.internal:9000
+[pod/pairs-tuned-0-td94f/pairs] готово сплитов 10 из 47
+[pod/pairs-tuned-0-td94f/pairs] готово сплитов 20 из 47
+[pod/pairs-tuned-0-td94f/pairs] готово сплитов 30 из 47
+[pod/pairs-tuned-0-td94f/pairs] готово сплитов 40 из 47
+[pod/pairs-tuned-0-td94f/pairs] готово сплитов 47 из 47
+[pod/pairs-tuned-0-td94f/pairs] строк 1218176 вакансий Go 421 уникальных пар 2428 за 178.8 с, записал k8s/tuned/part-0.pickle
+[pod/pairs-tuned-0-td94f/pairs] пик памяти контейнера 352 МиБ, предел 512 МиБ
